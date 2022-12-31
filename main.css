@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'montserrat',sans-serif;
     background-image: url('weatherbg.jpeg') ;
     background-size: cover;
     background-position: top center;
@@ -35,7 +35,7 @@ header input {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 16px 0px 16px 0px;
     border-bottom: 3px solid #ac6be4;
-
+    
     color: #313131;
     font-size: 20px;
     font-weight: 300;
@@ -62,7 +62,7 @@ main {
     margin-bottom:5px;
 }
 
-location .date {
+.location .date {
     color: #FFF;
     font-size: 16px;
 }
@@ -73,4 +73,24 @@ location .date {
     font-weight: 900;
     margin: 30px 0px;
     text-shadow: 2px 10px rgba(0,0,0,0.6);
+}
+
+.current .temp span {
+    font-weight:500;
+}
+
+.current .weather {
+    color: #FFF;
+    font-size: 32px;
+    font-weight:700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0,0,0,0.4);
+}
+
+.current .hi-low {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0,0,0,0.4);
 }
