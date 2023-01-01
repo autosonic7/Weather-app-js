@@ -54,4 +54,4 @@ let month = months[d.getMonth()];
 let year = d.getFullYear();
 
 return `${day} ${date} ${month} ${year}`;
-}
+} 
